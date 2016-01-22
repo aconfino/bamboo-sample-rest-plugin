@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
+  <plugin-info>
+    <description>${project.description}</description>
+    <version>${project.version}</version>
+    <vendor name="Confino Industries"/>
+  </plugin-info>
+
+  <rest name="Simple User Resource" key="sample-simple-user-rest-resource" path="/simple-user" version="1.0">
+    <description>The Simple User Rest Resource Plugin</description>
+  </rest>
+</atlassian-plugin>
